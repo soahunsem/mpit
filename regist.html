@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap сайт</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="font-awesome.min.css">
+    <link rel="stylesheet" href="main.css">
+    <style>
+        body{
+            background: url(img/1577084775_AI3-scaled.jpg) no-repeat center top;
+            text-align: center;
+            background-attachment: relative;
+            background-position:center center;
+
+        }
+    </style>
+</head>
+<body>
+
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="index.html"><img width="320px" height="40px" src="img/stop3.png" alt=""></a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="regist.html">Вход</a></li>
+                <li><a href="Service.html">Сервисы</a></li>
+                <li><a href="#">Обратная связь</a></li>
+                <li><a href="#">Про нас</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<br><br>
+<br><br>
+<br><br>
+<div class="container">
+    <div class="row">
+        <div class="col-md-offset-3 col-md-6">
+
+            <div class="tab" role="tabpanel">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#Section1" aria-controls="home" role="tab" data-toggle="tab">ВХОД</a></li>
+                    <li role="presentation"><a href="#Section2" aria-controls="profile" role="tab" data-toggle="tab">РЕГИСТРАЦИЯ</a></li>
+                </ul>
+                <!-- Tab panes -->
+                <div class="tab-content tabs">
+                    <div role="tabpanel" class="tab-pane fade in active" id="Section1">
+                        <form class="form-horizontal">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">E-Mail</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Введите свою почту">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Пароль</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Введите свой пароль">
+                            </div>
+                            <div class="form-group">
+                                <div class="main-checkbox">
+                                    <input value="None" id="checkbox1" name="check" type="checkbox" >
+                                    <label for="checkbox1"></label>
+                                </div>
+                                <span class="text">Запомнить меня</span>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-default">Войти</button>
+                            </div>
+                            <div class="form-group forgot-pass">
+                                <button type="submit" class="btn btn-default">Забыли пароль</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="Section2">
+                        <form class="form-horizontal">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Фамилия</label>
+                                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Введите свою фамилию">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Имя</label>
+                                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Введите своё имя">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">E-mail</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Введите свою почту">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Пароль</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Придумайте пароль">
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-default">Зарегистрироваться</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div><!-- /.col-md-offset-3 col-md-6 -->
+    </div><!-- /.row -->
+</div><!-- /.container -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="bootstrap.min.js"></script>
+</body>
+</html>

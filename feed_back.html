@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bootstrap сайт</title>
+	<link rel="stylesheet" href="bootstrap.css">
+	<link rel="stylesheet" href="font-awesome.min.css">
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="style.css" type="text/css" media="all" />
+	<link href='http://fonts.googleapis.com/css?family=Questrial|Droid+Sans|Alice' rel='stylesheet' type='text/css'>
+  <meta name="description" content="">
+	<style>
+		body{
+			background: url(img/1577084775_AI3-scaled.jpg) no-repeat center top;
+			text-align: center;
+			background-attachment: relative;
+			background-position:center center;
+
+		}
+	</style>
+</head>
+<body>
+<div class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a href="index.html"><img width="323px" height="38px" src="img/stop3.png" alt=""></a>
+		</div>
+		<div class="navbar-collapse collapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="regist.html">Вход</a></li>
+				<li><a href="Service.html">Сервисы</a></li>
+				<li class="active"><a href="feed_back.html">Обратная связь</a></li>
+				<li><a href="#">Про нас</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<br><br>
+	
+    <div id="content">
+       <h1>Форма для связи</h1>
+        
+        <form action=" " method="post"  autocomplete="on">
+			<p> <label for="username" class="iconic user" > Имя <span class="required">*</span></label> <input type="text" name="username" id="username"  required="required" placeholder="Как можно к вам обратиться?"  /> </p>
+
+			<p> <label for="usermail" class="iconic mail-alt"> E-mail <span class="required">*</span></label> <input type="email" name="usermail" id="usermail" placeholder="Обещаем, что не отправим спам" required="required"  /> </p>
+
+			<p> <label for="usersite" class="iconic link"> Сайт </label> <input type="url" name="usersite" id="usersite"  placeholder="eg: https://codyshop.ru" /> </p>
+
+			<p> <label for="subject" class="iconic quote-alt"> Тема </label> <input type="text" name="subject" id="subject"  placeholder="О чем вы хотите поговорить?" /> </p>
+
+			<p> <label for="message" class="iconic comment"> Сообщения  <span class="required">*</span></label> <textarea placeholder="Не стесняйтесь, отправьте мне сообщение и я отвечу как можно скорее "  required="required" ></textarea> </p>
+			<p class="indication"> Все поля с <span class="required">*</span> обязательны для заполнения</p>
+			
+			<input type="submit" value=" ★  Отправить сообщение !" />		
+
+		</form>		
+    </div> 
+
+
+
+
+
+
+
+</body>
+</html>    
